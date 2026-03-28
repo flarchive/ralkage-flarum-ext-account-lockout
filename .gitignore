@@ -1,0 +1,29 @@
+# Dependencies
+js/node_modules/
+js/.pnp.*
+js/.yarn/
+
+# Build artifacts (kept for distribution, but skip lock files)
+js/package-lock.json
+
+# Composer local files
+vendor/
+composer.lock
+
+# Playwright CLI
+js/.playwright-cli/
+
+# IDE/editor
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+*.env.local
+
+# Logs
+*.log
